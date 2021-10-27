@@ -20,4 +20,12 @@ declare(strict_types=1);
 			//Never delete this line!
 			parent::ApplyChanges();
 		}
+
+		public function Divide($Divisor, $Dividend) {
+			if ($Dividend === 0) {
+				echo 'Division by zero is not possible';
+				return 0;
+			}
+			return $Divisor / $Dividend;
+		}
 	}
