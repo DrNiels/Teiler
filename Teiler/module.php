@@ -31,6 +31,7 @@ declare(strict_types=1);
 		}
 
 		public function Multiply(float $Factor1, float $Factor2) {
+			// Multiply the factors
 			return $Factor1 * $Factor2;
 		}
 	}
