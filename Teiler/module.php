@@ -21,7 +21,7 @@ declare(strict_types=1);
 			parent::ApplyChanges();
 		}
 
-		public function Divide($Divisor, $Dividend) {
+		public function Divide(float $Divisor, float $Dividend) {
 			if ($Dividend === 0) {
 				// Special handling for dividend = 0
 				echo 'Division by zero is not possible';
