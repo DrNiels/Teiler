@@ -30,7 +30,7 @@ declare(strict_types=1);
 			return $Divisor / $Dividend;
 		}
 
-		public function Multiplizieren(float $Faktor1, float $Faktor2) {
-			return $Faktor1 * $Faktor2;
+		public function Multiply(float $Factor1, float $Factor2) {
+			return $Factor1 * $Factor2;
 		}
 	}
