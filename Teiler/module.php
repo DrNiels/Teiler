@@ -29,4 +29,9 @@ declare(strict_types=1);
 			}
 			return $Divisor / $Dividend;
 		}
+
+		public function Multiply(float $Factor1, float $Factor2) {
+			// Multiply the factors
+			return $Factor1 * $Factor2;
+		}
 	}
